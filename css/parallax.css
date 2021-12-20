@@ -1,0 +1,26 @@
+.paralax{
+     border: 2px solid brown;
+     height: 50vh;
+     background-color: rgba(0, 0, 0, 0.473);
+     display: flex;
+     justify-content: center;
+}
+.back_img{
+     position: absolute;
+     background-position: center;
+     background-size: cover;
+     width: 100%;
+     height: inherit;
+     z-index: -1;
+}
+.content_section{
+     width: 80%;
+     border: 2px solid yellow;
+     display: flex;
+     flex-flow: column wrap;
+     align-items: flex-end;
+     justify-content: center;
+}
+.content_section> div{
+     margin-right: 20px;
+}
